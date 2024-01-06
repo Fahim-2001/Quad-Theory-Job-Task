@@ -1,7 +1,8 @@
 import './App.css'
 import Header from './Components/Header'
 import Navbar from './Components/Navbar'
-import PopularItems from './Components/PopularItems'
+import PopularItems from './Components/PopularItems/PopularItems'
+
 
 
 function App() {
