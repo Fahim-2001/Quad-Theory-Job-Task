@@ -2,12 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    padding: 0; 
+* {
+    padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
-body{
+body {
     background-color: rgb(246, 222, 194);
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 }

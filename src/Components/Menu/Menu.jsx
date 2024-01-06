@@ -1,11 +1,11 @@
-import * as React from "react";
+import { useState } from "react";
 import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import MenuStyle from './Menu.module.css'
 
 export default function BasicMenu() {
-  const [anchorEl, setAnchorEl] = React.useState(null);
+  const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
@@ -25,7 +25,7 @@ export default function BasicMenu() {
         className="flex items-center gap-3 lg:gap-14"
         onClick={handleClick}
       >
-        <p className="text-black py-1 px-3 font-semibold">Menu</p>
+        <p className="text-black py-1 px-2 lg:px-3 font-semibold">Menu</p>
         <svg
           fill="#f66151"
           version="1.1"

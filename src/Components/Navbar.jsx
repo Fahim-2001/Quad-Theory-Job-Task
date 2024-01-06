@@ -2,11 +2,11 @@ import BasicMenu from "./Menu/Menu";
 
 export default function Navbar() {
   return (
-    <div className="flex justify-center md:justify-evenly items-center gap-10 my-5 lg:my-10 mx-3">
+    <div className="flex justify-between items-center gap-2 mx-2 my-5 lg:my-10 ">
       <p className="font-semibold text-2xl" style={{ fontFamily: "Days One" }}>
         pti.
       </p>
-      <div className="flex items-center gap-3">
+      <div className="flex items-center gap-2">
         <div className="flex items-center">
           <svg
             width="18px"
@@ -37,7 +37,7 @@ export default function Navbar() {
           <input
             type="text"
             placeholder="Search Audiobook"
-            className="bg-gray-100 w-56 lg:w-96 rounded py-[0.62em] pl-8"
+            className="bg-gray-100 w-48 lg:w-96 text-sm rounded py-[0.85em] pl-8"
           />
         </div>
         <BasicMenu />
