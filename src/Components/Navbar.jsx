@@ -1,4 +1,4 @@
-import BasicMenu from "./Menu/Menu";
+import BasicMenu from "./Menu";
 
 export default function Navbar() {
   return (

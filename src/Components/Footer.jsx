@@ -1,63 +1,24 @@
-import Image1 from "../../assets/Image2.png";
+import Image2 from "../assets/Image2.png";
 export default function Footer() {
   return (
     <section className="bg-amber-500 pt-10  pb-10">
       <div className="mx-3 grid lg:grid-cols-[700px_minmax(300px,_1fr)] items-end md:mx-20 lg:mx-40">
         <div>
           <div className="flex justify-center lg:justify-start">
-            <input type="text" className="py-[10px] md:w-[28rem] rounded-xl" />
-            <button className="flex items-center gap-2 text-orange-600 lg:text-white text-center text-sm font-bold rounded-xl lg:bg-orange-600 md:w-28 md:my-1 px-2 md:px-4 ml-[-8.5em]">
-              <p>Subscribe</p>
-              <svg
-                width="20px"
-                height="24px"
-                viewBox="0 -6.5 36 36"
-                version="1.1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
-                fill="#ff7800"
-                className="lg:hidden"
-              >
-                <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
-                <g
-                  id="SVGRepo_tracerCarrier"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                ></g>
-                <g id="SVGRepo_iconCarrier">
-                  {" "}
-                  <title>right-arrow</title> <desc>Created with Sketch.</desc>{" "}
-                  <g
-                    id="icons"
-                    stroke="none"
-                    strokeWidth="1"
-                    fill="none"
-                    fillRule="evenodd"
-                  >
-                    {" "}
-                    <g
-                      id="ui-gambling-website-lined-icnos-casinoshunter"
-                      transform="translate(-212.000000, -159.000000)"
-                      fill="#ff7800"
-                      fillRule="nonzero"
-                    >
-                      {" "}
-                      <g
-                        id="square-filled"
-                        transform="translate(50.000000, 120.000000)"
-                      >
-                        {" "}
-                        <path
-                          d="M187.108012,39.2902857 L197.649804,49.7417043 L197.708994,49.7959169 C197.889141,49.9745543 197.986143,50.2044182 198,50.4382227 L198,50.5617773 C197.986143,50.7955818 197.889141,51.0254457 197.708994,51.2040831 L197.6571,51.2479803 L187.108012,61.7097143 C186.717694,62.0967619 186.084865,62.0967619 185.694547,61.7097143 C185.30423,61.3226668 185.30423,60.6951387 185.694547,60.3080911 L194.702666,51.3738496 L162.99947,51.3746291 C162.447478,51.3746291 162,50.9308997 162,50.3835318 C162,49.8361639 162.447478,49.3924345 162.99947,49.3924345 L194.46779,49.3916551 L185.694547,40.6919089 C185.30423,40.3048613 185.30423,39.6773332 185.694547,39.2902857 C186.084865,38.9032381 186.717694,38.9032381 187.108012,39.2902857 Z M197.115357,50.382693 L186.401279,61.0089027 L197.002151,50.5002046 L197.002252,50.4963719 L196.943142,50.442585 L196.882737,50.382693 L197.115357,50.382693 Z"
-                          id="right-arrow"
-                        >
-                          {" "}
-                        </path>{" "}
-                      </g>{" "}
-                    </g>{" "}
-                  </g>{" "}
-                </g>
-              </svg>
+            <input type="text" placeholder="Enter Your Email" className="py-[10px] pl-7 md:w-[30rem] rounded-xl" />
+            <button className=" gap-2 text-orange-600   text-sm font-bold rounded-xl lg:bg-orange-600 lg:text-white md:w-32 md:my-1 px-2 md:px-4 ml-[-8.6em] lg:ml-[-9.6em]">
+              <p className="flex items-center gap-2 text-center">
+                Subscribe
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="16"
+                  width="16"
+                  viewBox="0 0 512 512"
+                  className="fill-orange-600 lg:fill-white"
+                >
+                  <path d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" />
+                </svg>
+              </p>
             </button>
           </div>
           <div className="flex flex-col-reverse md:flex-row md:items-end justify-center md:justify-between my-10  ">
@@ -173,7 +134,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="hidden lg:block">
-          <img src={Image1} alt="" className="h-84" />
+          <img src={Image2} alt="" className="h-84" />
         </div>
       </div>
     </section>

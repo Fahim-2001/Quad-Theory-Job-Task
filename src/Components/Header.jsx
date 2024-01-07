@@ -11,7 +11,7 @@ export default function Header() {
             Authentic Food|, Quick Service, Fast Delivery.
           </p>
         </div>
-        <div className="lg:hidden bg-orange-400 md:bg-transparent flex justify-center rounded-3xl mt-20 lg:mt-0 px-48 py-28"></div>
+        <div className="lg:hidden bg-orange-400 md:bg-transparent flex justify-center rounded-3xl mt-20 lg:mt-0 px-44 py-28"></div>
         <img
           src={Image1}
           alt="A boy with foods, floating over his hand"

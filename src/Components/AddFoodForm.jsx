@@ -48,7 +48,7 @@ export default function AddFoodForm({open,handleClose}) {
               {...register("Name", { required: true })}
             />
             {errors.Name && (
-              <span className="text-red-500">Name is required</span>
+              <span className="text-red-500 text-sm">Name is required</span>
             )}
 
             <input
@@ -58,7 +58,7 @@ export default function AddFoodForm({open,handleClose}) {
               {...register("Price", { required: true })}
             />
             {errors.Price && (
-              <span className="text-red-500">Price is required</span>
+              <span className="text-red-500 text-sm">Price is required</span>
             )}
 
             <input
@@ -68,7 +68,7 @@ export default function AddFoodForm({open,handleClose}) {
               {...register("ImageUrl", { required: true })}
             />
             {errors.ImageUrl && (
-              <span className="text-red-500">Image Url is required</span>
+              <span className="text-red-500 text-sm">Image Url is required</span>
             )}
 
             <div className="flex justify-between my-3">

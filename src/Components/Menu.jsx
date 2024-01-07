@@ -1,8 +1,6 @@
 import { useState } from "react";
 import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
-import MenuItem from "@mui/material/MenuItem";
-import MenuStyle from './Menu.module.css'
 
 export default function BasicMenu() {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -25,7 +23,7 @@ export default function BasicMenu() {
         className="flex items-center gap-3 lg:gap-14"
         onClick={handleClick}
       >
-        <p className="text-black py-1 px-2 lg:px-3 font-semibold">Menu</p>
+        <p className="text-black py-1 px-1 lg:px-3 font-semibold">Menu</p>
         <svg
           fill="#f66151"
           version="1.1"
@@ -65,24 +63,24 @@ export default function BasicMenu() {
         }}
         className="my-2"
       >
-        <MenuItem onClick={handleClose} className={MenuStyle.menuItems}>
+        <p onClick={handleClose} className="px-4 py-1 hover:bg-gray-200 hover:text-orange-600">
           Home
-        </MenuItem>
-        <MenuItem onClick={handleClose} className={MenuStyle.menuItems}>
+        </p>
+        <p onClick={handleClose} className="px-4 py-1 hover:bg-gray-200 hover:text-orange-600">
           Details
-        </MenuItem>
-        <MenuItem onClick={handleClose} className={MenuStyle.menuItems}>
+        </p>
+        <p onClick={handleClose} className="px-4 py-1 hover:bg-gray-200 hover:text-orange-600">
           Category
-        </MenuItem>
-        <MenuItem onClick={handleClose} className={MenuStyle.menuItems}>
+        </p>
+        <p onClick={handleClose} className="px-4 py-1 hover:bg-gray-200 hover:text-orange-600">
           My Favourite
-        </MenuItem>
-        <MenuItem onClick={handleClose} className={MenuStyle.menuItems}>
+        </p>
+        <p onClick={handleClose} className="px-4 py-1 hover:bg-gray-200 hover:text-orange-600">
           Profile
-        </MenuItem>
-        <MenuItem onClick={handleClose} className={MenuStyle.menuItems}>
+        </p>
+        <p onClick={handleClose} className="px-4 py-1 hover:bg-gray-200 hover:text-orange-600">
           Log In / Sign Up
-        </MenuItem>
+        </p>
       </Menu>
     </div>
   );

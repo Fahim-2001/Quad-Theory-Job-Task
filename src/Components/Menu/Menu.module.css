@@ -1,9 +1,0 @@
-.menuItems {
-    font-family: 'Poppins', sans-serif;
-    color:rgb(43, 43, 43);
-}
-
-.menuItems:hover{
-    color: #f66151;
-    background-color: rgb(217, 217, 217);
-}

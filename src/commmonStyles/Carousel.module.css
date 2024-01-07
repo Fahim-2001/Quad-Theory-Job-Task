@@ -1,18 +1,22 @@
 #carouselContainer {
-    overflow-x: hidden;
+    width: 135vw;
 }
 
 .itemsCarousel {
-    width: 100%;
-    display:flex;
+    display: flex;
     gap: 10px;
-    overflow-x:scroll;
     transition: transform 0.5s ease-in-out;
 }
 
-/* @media screen and (max-width: 600px) {
+
+@media screen and (max-width: 992px) {
     #carouselContainer {
-        width: 100vw;
-        overflow-x: visible;
+        width: 200vw;
     }
-} */
+}
+
+@media screen and (max-width: 600px) {
+    #carouselContainer {
+        width: 300vw;
+    }
+}
