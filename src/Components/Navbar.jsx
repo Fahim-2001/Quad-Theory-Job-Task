@@ -2,7 +2,7 @@ import BasicMenu from "./Menu/Menu";
 
 export default function Navbar() {
   return (
-    <div className="flex justify-between items-center gap-2 mx-2 my-5 lg:my-10 ">
+    <div className="flex justify-between items-center gap-2 my-5 lg:my-10 mx-3 md:mx-20 lg:mx-40">
       <p className="font-semibold text-2xl" style={{ fontFamily: "Days One" }}>
         pti.
       </p>

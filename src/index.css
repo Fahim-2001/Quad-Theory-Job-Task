@@ -10,10 +10,8 @@
 
 body {
     background-color: rgb(246, 222, 194);
-    margin-left: 10rem;
-    margin-right: 10rem;
 }
-
+/* 
 @media screen and (max-width: 992px) {
     body {
         margin-left: 5rem;
@@ -26,4 +24,4 @@ body {
         margin-left: 1rem;
         margin-right: 1rem;
     }
-}
+} */

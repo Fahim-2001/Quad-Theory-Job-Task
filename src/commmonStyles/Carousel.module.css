@@ -1,0 +1,18 @@
+#carouselContainer {
+    overflow-x: hidden;
+}
+
+.itemsCarousel {
+    width: 100%;
+    display:flex;
+    gap: 10px;
+    overflow-x:scroll;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* @media screen and (max-width: 600px) {
+    #carouselContainer {
+        width: 100vw;
+        overflow-x: visible;
+    }
+} */

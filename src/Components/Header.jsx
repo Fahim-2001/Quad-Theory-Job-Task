@@ -1,8 +1,8 @@
 import Image1 from "../assets/Image1.png";
 export default function Header() {
   return (
-    <div className="mt-20 mb-16">
-      <div className="lg:bg-orange-400 flex flex-col justify-center lg:flex-row lg:justify-evenly items-center px-2 rounded-3xl">
+    <div className="mt-20 mb-16 mx-3 md:mx-20 lg:mx-40">
+      <div className="lg:bg-amber-500 flex flex-col justify-center lg:flex-row lg:justify-evenly items-center px-2 rounded-3xl">
         <div className="text-center lg:text-left lg:px-24">
           <p className="text-2xl lg:text-4xl text-black lg:text-white font-extrabold ">
             Deliver Food To Your Door Step|
@@ -11,7 +11,7 @@ export default function Header() {
             Authentic Food|, Quick Service, Fast Delivery.
           </p>
         </div>
-        <div className="bg-orange-400 md:bg-transparent flex justify-center rounded-3xl mt-10 lg:mt-0 ">
+        <div className="bg-amber-500 md:bg-transparent flex justify-center rounded-3xl mt-10 lg:mt-0 ">
           <img
             src={Image1}
             alt="A boy with foods, floating over his hand"
