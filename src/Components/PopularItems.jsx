@@ -11,7 +11,6 @@ export default function PopularItems() {
   const foods = useSelector((state) => state.food.foods);
   const popularFoods = foods.filter((food) => Boolean(food.IsPopular) === true);
 
-  console.log(foods);
   // Carousel
   const imageCarousel = document.getElementById("image-carousel");
   let currentIndex = 0;
