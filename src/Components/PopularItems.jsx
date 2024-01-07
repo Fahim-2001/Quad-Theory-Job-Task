@@ -11,6 +11,7 @@ export default function PopularItems() {
   const foods = useSelector((state) => state.food.foods);
   const popularFoods = foods.filter((food) => Boolean(food.IsPopular) === true);
 
+  console.log(foods);
   // Carousel
   const imageCarousel = document.getElementById("image-carousel");
   let currentIndex = 0;
@@ -47,10 +48,7 @@ export default function PopularItems() {
               <p className="text-orange-600">Add More</p>
             </button>
             <div className="flex">
-              <button
-                className="mr-2"
-                onClick={() => prevImage()}
-              >
+              <button className="mr-2" onClick={() => prevImage()}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   height="16"
